@@ -2,7 +2,7 @@ var Nombre = 'Patricio';
 console.log(Nombre);
 console.log(typeof(Nombre));
 
-
+var year = 2021;
 
 var edad = 16;
 console.log(edad);
@@ -17,7 +17,7 @@ console.log(typeof(apellido));
 var apodo= 'Pato';
 console.log(typeof(apodo));
 console.log(apodo);
-
+/*
 var amigo1 ='rodri';
 console.log(amigo1);
 
@@ -32,9 +32,9 @@ var cd1 = null;
 var cd2 = 'juan';
 var cd3 = 14;
 console.log(cd2);
- /*
+
  5 variables con valores distintos y disitntos names
- */
+
 var a1 = true;
 var b1 = 'ojala';
 var c1 = 13;
@@ -55,3 +55,26 @@ var respuesta = true;
 console.log(hermanoMayor);
 console.log(pregunta);
 console.log(respuesta);
+*/
+
+ var fechanacimiento;
+
+ fechanacimiento = year - edad;
+ console.log('Pato nació el ' + fechanacimiento)
+
+ var edadCarla, edadDaniel, edadVero;
+ edadCarla = 28;
+ edadDaniel = 30;
+ edadVero = 39;
+ 
+ var DiferenciaCP, DiferenciaDP, DiferenciaVP, DiferenciaDV;
+
+ DiferenciaCP = edadCarla - edad;
+ DiferenciaDP = edadDaniel - edad;
+ DiferenciaDV = edadVero - edadDaniel;
+ DiferenciaVP = edadVero - edad;
+
+ console.log('la diferencia de edad entre carla y Pato es de ' + DiferenciaCP)
+ console.log('la diferencia de edad entre Pato y dani es de ' + DiferenciaDP)
+ console.log('la diferencia de edad entre Vero y  Pato es de ' + DiferenciaVP)
+ console.log('la diferencia de edad entre Dani y vero es de ' + DiferenciaDV)
