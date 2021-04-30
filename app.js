@@ -1,5 +1,5 @@
 var Nombre = 'Patricio';
-console.log('Nombre:' + Nombre);
+console.log(Nombre);
 console.log(typeof(Nombre));
 
 var edad = 16;
