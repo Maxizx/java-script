@@ -2,6 +2,8 @@ var Nombre = 'Patricio';
 console.log(Nombre);
 console.log(typeof(Nombre));
 
+
+
 var edad = 16;
 console.log(edad);
 console.log(typeof(edad));
