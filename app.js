@@ -63,7 +63,7 @@ console.log(respuesta);
  console.log('Pato nació el ' + fechanacimiento)
 
  var edadCarla, edadDaniel, edadVero;
- edadCarla = 28;
+ edadCarla = 29;
  edadDaniel = 30;
  edadVero = 39;
  
@@ -74,7 +74,29 @@ console.log(respuesta);
  DiferenciaDV = edadVero - edadDaniel;
  DiferenciaVP = edadVero - edad;
 
- console.log('la diferencia de edad entre carla y Pato es de ' + DiferenciaCP)
- console.log('la diferencia de edad entre Pato y dani es de ' + DiferenciaDP)
- console.log('la diferencia de edad entre Vero y  Pato es de ' + DiferenciaVP)
- console.log('la diferencia de edad entre Dani y vero es de ' + DiferenciaDV)
+ console.log('la diferencia de edad entre carla y Pato es de ' + DiferenciaCP);
+ console.log('la diferencia de edad entre Pato y dani es de ' + DiferenciaDP);
+ console.log('la diferencia de edad entre Vero y  Pato es de ' + DiferenciaVP);
+ console.log('la diferencia de edad entre Dani y vero es de ' + DiferenciaDV);
+
+
+
+  var Vero, Dani, Car;
+
+  Vero= edadVero > edadDaniel;
+  Dani = edadCarla >= edadDaniel;
+  Car = !(edadVero <= edadCarla);
+  
+ console.log('vero es mayor que dani. ' + Vero)
+ console.log('carla es mayor o igual que Daniel. ' + Dani)
+ console.log('carla es mayor o igual que vero. ' + Car)
+
+   var a, b, c;
+   a = 2;
+   b = 5;
+   c = 1;
+
+   console.log(b);
+
+   a += c;
+   console.log(a)
