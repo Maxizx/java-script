@@ -14,7 +14,7 @@ apellido = 'Ballesteros';
 console.log(apellido);
 console.log(typeof(apellido));
 
-var apodo= 'Pato';
+var apodo= 'Patio';
 console.log(typeof(apodo));
 console.log(apodo);
 /*
@@ -120,3 +120,37 @@ if (apodo == 'tato'){
   } else {
     console.log(apodo + ' No esta vivo')
   }
+
+
+if (Nombre == 'Patricio'){
+  console.log('nombre correcto');
+} else {
+  console.log('nombre incorrecto');
+}
+
+if (edadCarla <= edadDaniel){
+  console.log('Carla es mas chica que daniel');
+} else {
+  console.log('daniel es menor que carla');
+}
+
+
+if (edad <= 5){
+  console.log(apodo + ' es un niño');
+} else if (( edad >= 6) && (edad <= 10)){
+  console.log( apodo + ' es un pre adolecente')
+} else if ((edad >= 10) && (edad <= 18)){
+  console.log(apodo + ' es una adolecente')
+} else {
+  console.log( apodo + ' es un adulto')
+}
+
+if (apodo == 'patin'){
+  console.log('le hablo alfred')
+} else if ((apodo == 'paro') || (apodo == 'Pato')){
+  console.log('lo le hablo ricki')
+}else if ((apodo == 'Patito') || (apodo == 'enano')){
+  console.log('le hablo rodry u omar')
+} else{
+  console.log('Nadie le hablo')
+}
