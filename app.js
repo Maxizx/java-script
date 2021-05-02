@@ -66,7 +66,7 @@ console.log(respuesta);
  edadCarla = 29;
  edadDaniel = 30;
  edadVero = 39;
- 
+ /*
  var DiferenciaCP, DiferenciaDP, DiferenciaVP, DiferenciaDV;
 
  DiferenciaCP = edadCarla - edad;
@@ -100,3 +100,23 @@ console.log(respuesta);
 
    a += c;
    console.log(a)
+*/
+
+if ( edad >= edadCarla) {
+  console.log(apodo + ' ES MÁS CHICO');
+} else {
+  console.log(apodo + ' es mayor. ');
+}
+
+if (apodo == 'tato'){  
+  console.log('su apodo es Pato ' + apodo);
+  } else {
+    console.log('su apodo no es ' + apodo);
+  }
+
+  var vive = true;
+  if (vive == true){
+    console.log(apodo + ' esta vivo')
+  } else {
+    console.log(apodo + ' No esta vivo')
+  }
